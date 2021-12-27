@@ -249,8 +249,8 @@ a img{
     height: 150px;
     background:#fff;
     padding: 20px 10px 20px 10px;
-    border:1px solid red;
     box-sizing: border-box;
+    margin-bottom:10px;
 }
 .sec_02 ul{
     display: flex;
@@ -280,4 +280,196 @@ a img{
     font-size: 14px;
     margin-top: 10px;
     color: #343434;
+}
+/* ***************************************** */
+.sec_03{
+    width: 100%;
+    padding: 20px 10px 20px 10px;
+    box-sizing: border-box;
+    background:#fff;
+    margin-bottom: 10px;
+}
+.sec_03_search{
+    width: 100%;
+    height: 50px;
+}
+.sec_03_search input{
+    width: calc(100% - 45px);
+    height: 100%;
+    border:5px solid #225fb2;
+    float: left;
+    box-sizing: border-box;
+    text-indent: 10px;
+    outline: none;
+}
+.sec_03_search button{
+    width: 45px;
+    height: 100%;
+    float:right;
+    background:#225fb2 url("../images/allSerch.png")no-repeat center;
+    background-size: 30px;
+}
+/* ***************************************** */
+.sec_04{
+    width: 100%;
+    box-sizing: border-box;
+    background:#fff;
+    padding: 20px 15px 20px 15px;
+    margin-bottom: 10px;
+}
+.sec_04_txt{
+    width: 100%;
+    overflow: hidden;
+}
+.sec_04 ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+.sec_04 li{
+    width: 24.5%;
+    margin-right: 2%;
+}
+.sec_04 li:last-child{
+    margin-right: 0;
+
+}
+.sec_04 li a{
+
+}
+.sec_04 img{
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10px;
+}
+.sec_04 p{
+    font-size: 14px;
+    float:left;
+    color: #343434;
+    font-weight: bold;
+}
+.sec_04 h3{
+    float:left;
+    font-weight: bold;
+}
+.sec_04 span{
+    float:right;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* ***************************************** */
+.sec_05{
+    width: 100%;
+    padding: 20px 15px 20px 15px;
+    background:#fff;
+    box-sizing: border-box;
+}
+.sec_05_txt{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.sec_05 h3{
+    float:left;
+    font-weight: bold;
+}
+.sec_05 span{
+    float:right;
+    font-size: 20px;
+    font-weight: bold;
+}
+.sec_05_page{
+    left: -50%;
+}
+.sec_05_visual .swiper-pagination-clickable{
+    left: -45%;
+}
+/* ***************************************** */
+.sec_05_txt_02{
+    margin-top: 15px;
+}
+.sec_05_txt_02 li{
+    overflow: hidden;
+}
+.sec_05_txt_02 li p{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #343434;
+    line-height: 25px;
+    float: left;
+    vertical-align: middle;
+    position: relative;
+    text-indent: 35px;
+}
+.sec_05_txt_02 li p::before{
+    content: '';
+    width: 30px;
+    height: 15px;
+    background:url("../images/ico_noti.png")no-repeat center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/* ***************************************** */
+.sec_06{
+    width: 100%;
+    padding: 20px 15px 20px 15px;
+    box-sizing: border-box;
+}
+.sec_06 img{
+    width: 100%;
+}
+/* ***************************************** */
+.footer{
+    width: 100%;
+    padding: 20px 15px 20px 15px;
+    box-sizing: border-box;
+    background:#222;
+    overflow: hidden;
+}
+.footer_menu{
+    width: 100%;
+    height: 35px;
+    display: flex;
+}
+.footer_menu li{
+    width: calc(100% / 3);
+    text-align: center;
+    background:#3c3d42;
+    border-right: 1px solid #28292e;
+    border-left:1px solid #5f6065;
+}
+.footer_menu li:first-child{
+    border-left:none;
+}
+.footer_menu li a{
+    color: #fff;
+    line-height: 35px;
+}
+/* ***************************************** */
+.number{
+    float:left;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 20px 12px 0 0;
+}
+.number h4{
+    float:left;
+    color: #fff;
+    font-weight: bold;
+    font-size: 19px;
+    margin-right: 15px;
+}
+.number a{
+    margin-right: 15px;
+}
+.number img{
+    width: 24px;
+}
+.number p{
+    font-size: 10px;
+    color: #fff;
+    margin-top: 10px;
 }
