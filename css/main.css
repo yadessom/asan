@@ -291,6 +291,7 @@ a img{
 .sec_03_search{
     width: 100%;
     height: 50px;
+    background:#225fb2;
 }
 .sec_03_search input{
     width: calc(100% - 45px);
