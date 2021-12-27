@@ -193,13 +193,12 @@ a img{
 }
 .sec_01 ul{
     width: 100%;
-    height: auto;
     margin: 0 auto;
     overflow: hidden;
 }
 .sec_01 li{
     width: 49%;
-    height: 49%;
+    height: 120px;
     float:left;
     margin-right: 2%;
     padding: 30px 10px 30px 10px;
@@ -209,8 +208,8 @@ a img{
 .sec_01 li:nth-child(2n){
     margin-right: 0;
 }
-.sec_01 li:nth-child(1),.sec_01 li:nth-child(2){
-    margin-bottom: 2%;
+.sec_01 li:first-child, .sec_01 li:nth-child(2){
+    margin-bottom: 10px;
 }
 .sec_01 li a{
     display: block;
@@ -263,8 +262,8 @@ a img{
 
 }
 .sec_02 li a div{
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     border:1px solid #e9e9e9;
     border-radius: 100px;
     background:#fafafa ;
@@ -274,10 +273,10 @@ a img{
     background: #40c492;
 }
 .sec_02 li a div img{
-    width: 80px;
+    width: 70px;
 }
 .sec_02 li a div p{
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 10px;
     color: #343434;
 }
@@ -339,11 +338,10 @@ a img{
 }
 .sec_04 img{
     width: 100%;
-    height: 50%;
     margin-bottom: 10px;
 }
 .sec_04 p{
-    font-size: 14px;
+    font-size: 13px;
     float:left;
     color: #343434;
     font-weight: bold;
@@ -390,9 +388,10 @@ a img{
 }
 .sec_05_txt_02 li{
     overflow: hidden;
+    height: 35px;
 }
 .sec_05_txt_02 li p{
-    font-size: 14px;
+    font-size: 13px;
     margin-top: 10px;
     color: #343434;
     line-height: 25px;
@@ -446,6 +445,7 @@ a img{
 }
 .footer_menu li a{
     color: #fff;
+    font-size: 13px;
     line-height: 35px;
 }
 /* ***************************************** */
