@@ -8,12 +8,14 @@ $(function(){
       $('.header .gnb_wrap').animate({'left':0});
       $('.wrap').animate({'left':274});
       $('.m_btn').addClass('on');
+      $('body,html').css('overflow','hidden');
       sw = 1;
     }else{
       $('.cover').stop().fadeOut(300);
       $('.header .gnb_wrap').animate({'left':-274});
       $('.wrap').animate({'left':0});
       $('.m_btn').removeClass('on');
+      $('body,html').css('overflow','auto');
       sw = 0;
     }
   });

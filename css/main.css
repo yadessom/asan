@@ -286,6 +286,7 @@ a img{
     font-size: 13px;
     margin-top: 10px;
     color: #343434;
+    letter-spacing: -2px;
 }
 /* ***************************************** */
 .sec_03{
@@ -407,6 +408,7 @@ a img{
     vertical-align: middle;
     position: relative;
     text-indent: 35px;
+    letter-spacing: -2px;
 }
 .sec_05_txt_02 li p::before{
     content: '';
