@@ -28,9 +28,8 @@ $(function(){
   });
 
   //모바일 버튼 바뀌는 명령
-  $('.header .m_btn').click(function(){
-
-  });
+  // $('.header .m_btn').click(function(){
+  // });
 
   // ***************슬라이더**************
   const swiper = new Swiper('.swiper', {
